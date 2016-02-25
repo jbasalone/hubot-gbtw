@@ -42,6 +42,6 @@ work = [
  "http://www.ghantafun.com/wp-content/plugins/wp-o-matic/cache/5e9c6ec22f_d829753fc-730x.png"
 ]
 
-module.exports = (bender) ->
-   bender.hear /get back to work|gbtw|get back to work!|get to work/i, (msg) ->
+module.exports = (robot) ->
+   robot.hear /get back to work|gbtw|get back to work!|get to work/i, (msg) ->
      msg.send msg.random work

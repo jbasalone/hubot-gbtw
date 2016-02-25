@@ -6,11 +6,13 @@
 # 
 # Configuration: 
 #   None
+#
 # Commands:
-#   None
+#   hubot gbtw - Random Images
+#   hubot get to work - Random Images
 #
 # Author:
-#   Jennifer Basalone
+#   Jennifer Basalone jbasalone@gmail.com
 
 work = [
  "http://media.giphy.com/media/wkfUnYU3BqCKA/giphy.gif",

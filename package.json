@@ -1,0 +1,32 @@
+{
+  "name": "hubot-gbtw",
+  "description": "A hubot script to show motivational images for your team",
+  "version": "1.0.0",
+  "author": "J.M. Basalone <jbasalone@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbasalone/hubot-gbtw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbasalone/hubot-gbtw/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "homepage": "https://github.com/jbasalone/hubot-gbtw#readme"
+}
